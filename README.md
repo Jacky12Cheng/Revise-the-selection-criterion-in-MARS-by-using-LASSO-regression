@@ -19,7 +19,7 @@ In this method, we want to use every training example as a possible knot point f
 
 Above formula is the PRSS term
 
-![This is an image](https://github.com/Jacky12Cheng/NBA-Industry-Chain-Database-Management-System-with-GUI/blob/main/ER_Diagram_and_Relation_Schema/Relation%20Schema.png)
+![This is an image](https://github.com/Jacky12Cheng/Revise-the-selection-criterion-in-MARS-by-using-LASSO-regression/blob/main/figures/Nov_greedy_MARS_regression.png)
  
 Where N is the size of observations. It chooses LASSO to select basis function and it is flexible as changing penalty in LASSO.
 However, it left the mirrored hinge functions out and it would spend much processing time and be inelastic in big data.
@@ -34,9 +34,14 @@ This project revises the selection criterion in MARS by using LASSO regression.
 According to the non-greedy MARS, we revise original MARS. In non-greedy MARS, it may spend large time complexity when comes across the more complex problem. We try to combine MARS and LASSO. 
 #### Original form
  
+![This is an image](https://github.com/Jacky12Cheng/Revise-the-selection-criterion-in-MARS-by-using-LASSO-regression/blob/main/figures/PRSS_term.png)
 
 #### Revised form
+ 
+![This is an image](https://github.com/Jacky12Cheng/Revise-the-selection-criterion-in-MARS-by-using-LASSO-regression/blob/main/figures/Revised_form.png) 
  
 Our idea is to replace the part of backward pass in MARS with LASSO. We choose to stop MARS algorithm when it proceeds to forward pass, then uses LASSO as our selection criterion of basis function.
 
 #### Flow chart
+
+![This is an image](https://github.com/Jacky12Cheng/Revise-the-selection-criterion-in-MARS-by-using-LASSO-regression/blob/main/figures/Flow_chart.png)
