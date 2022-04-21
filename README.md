@@ -10,9 +10,9 @@ We want to find a method to select basis function globally and hope to get a mor
     
 Conic MARS has a special form of selection criterion in backward pass, it use “PRSS” to replace GCV. This method simply suggests to implement a penalized residual sum of squares (PRSS) for MARS as a ridge regression, also known as the Tikhonov regularization, by eliminating the backward stepwise algorithm of MARS.
 CMARS chooses knots t more far from the input variables. 
+
     - Nongreedy MARS regression
-    
-In this method, we want to use every training example as a possible knot point for the spline and let the penalized regression find the optimal linear combination among all possible knots. The model in problems are therefore.
+    In this method, we want to use every training example as a possible knot point for the spline and let the penalized regression find the optimal linear combination among all possible knots. The model in problems are therefore.
 
 Above formula is the PRSS term
 
