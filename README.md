@@ -14,6 +14,7 @@ We have searched some paper about improved version of MARS.
 CMARS chooses knots t more far from the input variables. 
 
     - Nongreedy MARS regression
+    
 Conic MARS has a special form of selection criterion in backward pass, it use “PRSS” to replace GCV. This method simply suggests to implement a penalized residual sum of squares (PRSS) for MARS as a ridge regression, also known as the Tikhonov regularization, by eliminating the backward stepwise algorithm of MARS.
 CMARS chooses knots t more far from the input variables. 
 
