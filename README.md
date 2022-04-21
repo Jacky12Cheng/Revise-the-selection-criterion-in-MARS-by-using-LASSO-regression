@@ -28,11 +28,11 @@ This project revises the selection criterion in MARS by using LASSO regression.
 
 - Revised MARS
 According to the non-greedy MARS, we revise original MARS. In non-greedy MARS, it may spend large time complexity when comes across the more complex problem. We try to combine MARS and LASSO. 
-  - Original form
+  ### Original form
  
 
-  - Revised form
+  ### Revised form
  
 Our idea is to replace the part of backward pass in MARS with LASSO. We choose to stop MARS algorithm when it proceeds to forward pass, then uses LASSO as our selection criterion of basis function.
 
-  - Flow chart
+  ### Flow chart
