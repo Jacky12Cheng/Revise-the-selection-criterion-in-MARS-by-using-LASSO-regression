@@ -6,10 +6,10 @@ However, one of the drawbacks of the standard MARS algorithm is the greedy selec
 We want to find a method to select basis function globally and hope to get a more efficient solution.
 
 - **Literature Review**
-
+    - Conic MARS (CMARS)
 We have searched some paper about improved version of MARS.
 
-    - **Conic MARS (CMARS)**
+    - Conic MARS (CMARS)
     
 Conic MARS has a special form of selection criterion in backward pass, it use “PRSS” to replace GCV. This method simply suggests to implement a penalized residual sum of squares (PRSS) for MARS as a ridge regression, also known as the Tikhonov regularization, by eliminating the backward stepwise algorithm of MARS.
 CMARS chooses knots t more far from the input variables. 
