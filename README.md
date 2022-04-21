@@ -15,7 +15,7 @@ CMARS chooses knots t more far from the input variables.
 #### Nongreedy MARS regression
 In this method, we want to use every training example as a possible knot point for the spline and let the penalized regression find the optimal linear combination among all possible knots. The model in problems are therefore.
 
-![This is an image](https://github.com/Jacky12Cheng/NBA-Industry-Chain-Database-Management-System-with-GUI/blob/main/ER_Diagram_and_Relation_Schema/Relation%20Schema.png)
+![This is an image](https://github.com/Jacky12Cheng/Revise-the-selection-criterion-in-MARS-by-using-LASSO-regression/blob/main/figures/PRSS_term.png)
 
 Above formula is the PRSS term
 
