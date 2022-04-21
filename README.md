@@ -34,7 +34,7 @@ This project revises the selection criterion in MARS by using LASSO regression.
 According to the non-greedy MARS, we revise original MARS. In non-greedy MARS, it may spend large time complexity when comes across the more complex problem. We try to combine MARS and LASSO. 
 #### Original form
  
-![This is an image](https://github.com/Jacky12Cheng/Revise-the-selection-criterion-in-MARS-by-using-LASSO-regression/blob/main/figures/PRSS_term.png)
+![This is an image](https://github.com/Jacky12Cheng/Revise-the-selection-criterion-in-MARS-by-using-LASSO-regression/blob/main/figures/original_form.png)
 
 #### Revised form
  
