@@ -9,11 +9,14 @@ We want to find a method to select basis function globally and hope to get a mor
 We have searched some paper about improved version of MARS.
 
     - Conic MARS (CMARS)
+    
 Conic MARS has a special form of selection criterion in backward pass, it use “PRSS” to replace GCV. This method simply suggests to implement a penalized residual sum of squares (PRSS) for MARS as a ridge regression, also known as the Tikhonov regularization, by eliminating the backward stepwise algorithm of MARS.
 CMARS chooses knots t more far from the input variables.
  
 Above formula is the PRSS term
-	  - Non-greedy MARS regression
+
+    - Non-greedy MARS regression
+    
 In this method, we want to use every training example as a possible knot point for the spline and let the penalized regression find the optimal linear combination among all possible knots. The model in problems are therefore :
  
 Where N is the size of observations. It chooses LASSO to select basis function and it is flexible as changing penalty in LASSO.
