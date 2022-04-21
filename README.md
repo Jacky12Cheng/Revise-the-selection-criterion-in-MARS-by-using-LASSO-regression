@@ -1,15 +1,14 @@
 # Revise-the-selection-criterion-in-MARS-by-using-LASSO-regression
 
 ## **Motivation and background**
-
 In the Data Science/Machine Learning community, Multivariate adaptive regression splines (MARS) is a somewhat neglected model. It can handle more complex problem and still preserve model interpretability. 
 However, one of the drawbacks of the standard MARS algorithm is the greedy selection scheme for basis functions. MARS only looks for the locally best term to add or remove.
 We want to find a method to select basis function globally and hope to get a more efficient solution.
-- **Literature Review**
 
+- **Literature Review**
 We have searched some paper about improved version of MARS.
 
-  - Conic MARS (CMARS)
+    - Conic MARS (CMARS)
 Conic MARS has a special form of selection criterion in backward pass, it use “PRSS” to replace GCV. This method simply suggests to implement a penalized residual sum of squares (PRSS) for MARS as a ridge regression, also known as the Tikhonov regularization, by eliminating the backward stepwise algorithm of MARS.
 CMARS chooses knots t more far from the input variables.
  
