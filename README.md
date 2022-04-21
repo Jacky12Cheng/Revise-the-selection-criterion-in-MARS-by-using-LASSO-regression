@@ -6,7 +6,6 @@ However, one of the drawbacks of the standard MARS algorithm is the greedy selec
 We want to find a method to select basis function globally and hope to get a more efficient solution.
 
 - **Literature Review**
-    - Conic MARS (CMARS)
 We have searched some paper about improved version of MARS.
 
     - Conic MARS (CMARS)
