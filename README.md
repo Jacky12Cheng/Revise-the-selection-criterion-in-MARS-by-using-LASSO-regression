@@ -15,7 +15,8 @@ CMARS chooses knots t more far from the input variables.
 
 Above formula is the PRSS term
 
-    - Nongreedy MARS regression    
+    - Nongreedy MARS regression
+    
 In this method, we want to use every training example as a possible knot point for the spline and let the penalized regression find the optimal linear combination among all possible knots. The model in problems are therefore :
  
 Where N is the size of observations. It chooses LASSO to select basis function and it is flexible as changing penalty in LASSO.
