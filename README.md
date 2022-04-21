@@ -11,8 +11,7 @@ We have searched some paper about improved version of MARS.
     - Conic MARS (CMARS)
     
 Conic MARS has a special form of selection criterion in backward pass, it use “PRSS” to replace GCV. This method simply suggests to implement a penalized residual sum of squares (PRSS) for MARS as a ridge regression, also known as the Tikhonov regularization, by eliminating the backward stepwise algorithm of MARS.
-CMARS chooses knots t more far from the input variables.
- 
+CMARS chooses knots t more far from the input variables. 
 Above formula is the PRSS term
 
     - Non-greedy MARS regression
@@ -23,4 +22,5 @@ Where N is the size of observations. It chooses LASSO to select basis function a
 However, it left the mirrored hinge functions out and it would spend much processing time and be inelastic in big data.
 
 - **Problem Definition**
+- 
 This project revises the selection criterion in MARS by using LASSO regression.
